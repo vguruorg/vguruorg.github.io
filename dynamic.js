@@ -1,7 +1,7 @@
     // Contact Detail start
-    var Contact_Number = "+1 408-123-4567";
+    var Contact_Number = "+1 408-641-5507";
     var Email_id = "info@vguru.org";
-    var Address = "1234 Your Home, City, CA 95555, USA";
+    var Address = "1614 Ellis Ave, Milpitas, CA 95035, USA";
     // Contact Detail end 
 
     // ABOUT US Detail start
@@ -47,13 +47,13 @@
     // Full Day Detail Start
     var full_day_title = "Full Day, Monday - Friday";
     var full_day_time = "Hours: 8:15am - 6:00pm";
-    var full_day_price = "Tuition: $xxx per month";
+    var full_day_price = "Tuition: $700 per month";
     // Full Day Detail End
    
     // Half Day Detail Start
     var half_day_title = "Half Day, Monday - Friday";
     var half_day_time = "Morning: 9:00am - 12:00 pm";
-    var half_day_price = "Tuition: $xxx per month";
+    var half_day_price = "Tuition: $450 per month";
     // Half Day Detail End
 
     // terms and conditions Start
