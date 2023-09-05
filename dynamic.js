@@ -65,5 +65,5 @@
     var yelp_link='https://yelp.com';
     var instagram_link='https://instagram.com';
     var youtube_link='https://youtube.com';
-    var map_location_link='https://map.google.com';
+    var map_location_link='https://goo.gl/maps/fPsNozFgNUtBErrVA';
 
