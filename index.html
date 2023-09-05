@@ -1,99 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
     <title>vGuru</title>
-
     <link href="assets/img/fav.png" rel="shortcut icon" type="image/png" />
-
     <!-- Stylesheet -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/javascript-plugins-bundle.css" rel="stylesheet" />
-
     <!-- CSS | menuzord megamenu skins -->
     <link href="assets/js/menuzord/css/menuzord.css" rel="stylesheet" />
-
     <!-- CSS | Main style file -->
     <link href="assets/css/style-main.css" rel="stylesheet" type="text/css" />
     <link id="menuzord-menu-skins" href="assets/css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet" />
-
     <!-- CSS | Responsive media queries -->
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
-
     <!-- CSS | Theme Color -->
     <link href="assets/css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css" />
-
     <script async src="dynamic.js"></script>
-     <script async src="assets/js/set_content.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2.9.2/dist/parsley.min.js"></script>
-    <script type="text/javascript">
-        var submitted = false;
-    </script>
-    <script type="text/javascript">
-        $(function () {
-            $('#gform').parsley().on('field:validated', function () {
-                var ok = $('.parsley-error').length === 0;
-                $('.bs-callout-info').toggle(!ok);
-            });
-
-            $("#gform").on('submit', function (e) {
-                e.preventDefault();
-                var form = $(this);
-                form.parsley().validate();
-                if (form.parsley().isValid()) {
-                    $('#gform *').fadeOut(1000);
-                    $('#gform').prepend('Thank you for getting in touch...');
-                }
-            });
-        });
-    </script>
-
-
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script>
-        var RC2KEY = '6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR',
-            doSubmit = false;
-        function recaptchaCallback() {
-            document.getElementById('myField').value = 'nonEmpty';
-        }
-
-        function reCaptchaVerify(response) {
-            if (response === document.querySelector('.g-recaptcha-response').value) {
-                doSubmit = true;
-            }
-        }
-
-        function reCaptchaExpired() {
-            /* do something when it expires */
-        }
-
-        function reCaptchaCallback() {
-            /* this must be in the global scope for google to get access */
-            grecaptcha.render('id', {
-                'sitekey': RC2KEY,
-                'callback': reCaptchaVerify,
-                'expired-callback': reCaptchaExpired
-            });
-        }
-    </script>
-
-
+   
+    <script async src="assets/js/set_content.js"></script>
 </head>
-
 <body class="tm-container-1340px has-side-panel side-panel-right">
-
     <div id="wrapper" class="clearfix">
         <!-- Header -->
-
         <header id="header" class="header header-layout-type-header-2rows">
             <div class="header-top">
                 <div class="container">
@@ -105,11 +37,11 @@
                                         Tel:
                                         +1 408-123-4567 </span></li>
                                 <li class="contact-email"><i class="fa fa-envelope font-icon sm-display-block"></i>
-                                    <span class="Email_id">info@vguru.org </span></li>
+                                    <span class="Email_id">info@vguru.org </span>
+                                </li>
                                 <li class="contact-address"><a href="#" class="map_loc_link" target="_blank"> <i
-                                        class="fa fa-map-marked font-icon sm-display-block"></i><span class="map_loc_link Address">
-                                        1234
-                                        Your Home, City, CA 95555, USA </span></a></li>
+                                            class="fa fa-map-marked font-icon sm-display-block"></i><span
+                                            class="Address"> </span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -153,16 +85,13 @@
                 </div>
             </div>
         </header>
-
         <!-- Start main-content -->
         <div class="main-content-area">
-
             <section id="home" class="bg-pos-center-center wave-object-bottom">
                 <div class="img-wrapper">
                     <img class="inner-img" src="assets/img/bg1.jpg" alt="homepage">
                 </div>
             </section>
-
             <!-- Section: About -->
             <section class="about-section" id="aboutus">
                 <div class="container pb-md-80 pt-md-50">
@@ -171,7 +100,6 @@
                         <div class="section-heading">
                             <h2>About Us</h2>
                         </div>
-
                         <div class="col-md-6 col-lg-6 col-xl-5">
                             <h2 class="">vGuru</h2>
                             <p class="lead About_us_detail">Welcome to our nurturing learning center, where your child's
@@ -179,7 +107,6 @@
                                 joy! With a team of dedicated educators, we craft personalized learning experiences in a
                                 safe and engaging environment. Whether it's reading, math, or creative arts, we focus on
                                 your child's unique needs and interests, ensuring a fun-filled educational journey.</p>
-
                         </div>
                         <div class="col-md-6 col-lg-6 col-xl-6">
                             <div class="image-box">
@@ -195,7 +122,6 @@
                 </div>
             </section>
             <!-- End About -->
-
             <!-- Section: Choose Class -->
             <section class="choose-class" id="Facilities">
                 <div class="container pt-0 pb-0">
@@ -233,7 +159,6 @@
                                                 struggles into confidence, making learning an enjoyable experience.
                                                 <br>📝🌟
                                             </p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +174,8 @@
                                         </div>
                                         <div class="details clearfix">
                                             <h4 class="title "><a class="Card_Second_title">Reading and Writing</a></h4>
-                                            <p class="Card_Second_description">Reading and writing at our learning center form the building blocks for a
+                                            <p class="Card_Second_description">Reading and writing at our learning
+                                                center form the building blocks for a
                                                 child's educational journey. Through personalized attention, kids are
                                                 exposed to a vast array of books, nurturing a love for reading. Writing
                                                 exercises are tailored to engage creativity, helping little hands craft
@@ -293,7 +219,6 @@
                         data-tm-width="200" data-tm-height="200" data-tm-top="5%" data-tm-right="3%"></span>
                 </div>
             </section>
-           
             <section class="bg-pos-center-center bg-no-repeat z-index-1"
                 data-tm-bg-img="assets/images/bg/programm-bg1.png">
                 <div class="container">
@@ -310,7 +235,8 @@
                                         </div>
                                         <div class="details clearfix">
                                             <h4 class="title"><a class="Card_four_title">Math and Science</a></h4>
-                                            <p class="Card_four_description">At our center, Math and Science are more than just subjects
+                                            <p class="Card_four_description">At our center, Math and Science are more
+                                                than just subjects
                                                 they're exciting explorations! Children discover the joy of numbers
                                                 through playful activities, developing strong mathematical foundations.
                                                 Science comes alive with hands-on experiments, sparking curiosity about
@@ -318,7 +244,6 @@
                                                 inquisitive minds. <br>
                                                 🧪🔢
                                             </p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -334,14 +259,14 @@
                                         </div>
                                         <div class="details clearfix">
                                             <h4 class="title"><a class="Card_five_title">Art or Painting</a></h4>
-                                            <p class="Card_five_description">Art and painting at our center are not mere activities but
+                                            <p class="Card_five_description">Art and painting at our center are not mere
+                                                activities but
                                                 pathways to self-expression and creativity. Using vibrant colors and
                                                 various techniques, children learn to paint their thoughts and dreams.
                                                 Our educators guide them to explore texture and form, developing fine
                                                 motor skills, artistic sensibilities, and fostering a love for visual
                                                 arts. <br> 🎨🖌️
                                             </p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -357,14 +282,14 @@
                                         </div>
                                         <div class="details clearfix">
                                             <h4 class="title"><a class="Card_six_title">Games - Chess</a></h4>
-                                            <p class="Card_six_description">Chess at our learning center is more than just a game; it's a
+                                            <p class="Card_six_description">Chess at our learning center is more than
+                                                just a game; it's a
                                                 mind-building exercise for children. Through engaging lessons, kids
                                                 learn strategy, patience, and critical thinking, all while having fun
                                                 with the chess pieces. It's a playful yet analytical way to enhance
                                                 cognitive skills, providing a unique learning experience <br>
                                                 ♟️💡
                                             </p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -377,7 +302,6 @@
                         data-tm-bg-img="assets/images/objects/Fun-EuroKids.png" data-tm-opacity="1"
                         style="background-size:contain;" data-tm-width="250" data-tm-height="240" data-tm-top="5%"
                         data-tm-left="0"></span>
-
                 </div>
             </section>
             <!-- End Choose Class -->
@@ -399,15 +323,23 @@
                                                         <h4 class="title-enrollment">Enrollment</h4>
                                                         <h5>Full Day</h5>
                                                         <ul>
-                                                            <li class="text-white"><span class="full_day_title">Full Day, Monday - Friday</span></li>
-                                                            <li class="text-white "><span class="full_day_time"> Hours: 8:15am - 6:00pm </span></li>
-                                                            <li class="text-white "><span class="full_day_price">Tuition: $xxx per month</span></li>
+                                                            <li class="text-white"><span class="full_day_title">Full
+                                                                    Day, Monday - Friday</span></li>
+                                                            <li class="text-white "><span class="full_day_time"> Hours:
+                                                                    8:15am - 6:00pm </span></li>
+                                                            <li class="text-white "><span
+                                                                    class="full_day_price">Tuition: $xxx per
+                                                                    month</span></li>
                                                         </ul>
                                                         <h5>Half Day</h5>
                                                         <ul>
-                                                            <li class="text-white "><span class="half_day_title">Half Day, Monday - Friday</span></li>
-                                                            <li class="text-white "><span class="half_day_time">Morning: 9:00am - 12:00 pm</span></li>
-                                                            <li class="text-white "><span class="half_day_price">Tuition: $xxx per month</span></li>
+                                                            <li class="text-white "><span class="half_day_title">Half
+                                                                    Day, Monday - Friday</span></li>
+                                                            <li class="text-white "><span class="half_day_time">Morning:
+                                                                    9:00am - 12:00 pm</span></li>
+                                                            <li class="text-white "><span
+                                                                    class="half_day_price">Tuition: $xxx per
+                                                                    month</span></li>
                                                         </ul>
                                                         <p class="text-white terms_and_conditions">
                                                             Non-refundable registration fee: $100 <br>
@@ -431,7 +363,6 @@
             </section>
         </div>
         <!-- end main-content -->
-
         <footer
             class="btm-footer snipcss-b9Soo tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center">
             <!-- Section: Contact Form -->
@@ -481,7 +412,8 @@
                                         </div>
                                         <div class="icon-text">
                                             <h5 class="icon-box-title mt-0">Address</h5>
-                                            <div class="content"> <a href="#" class="map_loc_link Address"  target="_blank">1234 Your Home, City, CA 95555,
+                                            <div class="content"> <a href="#" class="map_loc_link Address"
+                                                    target="_blank">1234 Your Home, City, CA 95555,
                                                     USA</a></div>
                                         </div>
                                         <div class="clearfix"></div>
@@ -492,25 +424,24 @@
                                 <h3 class="mt-0 mb-0">Get in Touch </h3>
                                 <p class="font-size-20">Interested in discussing?</p>
                                 <!-- Contact Form -->
-                                <form  data-parsley-validate id="gform" name="gform"
-                                enctype="text/plain" class="form"
-                                action="https://docs.google.com/forms/d/e/1FAIpQLSflNkViCOff8XJoP2ZJxOlD3EeYnEjwITFnmtegCCHdYcvxSQ/formResponse?"                                
-                                target="hidden_iframe" onsubmit="submitted=true;">
+                                <form  id="gform" name="gform" enctype="text/plain"
+                                    action="https://docs.google.com/forms/d/e/1FAIpQLSflNkViCOff8XJoP2ZJxOlD3EeYnEjwITFnmtegCCHdYcvxSQ/formResponse?"
+                                    target="hidden_iframe" onsubmit="submitted=true;">
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="mb-3">
                                                 <label>Name <small>*</small></label>
-                                                <input name="entry.1268217690" id="entry.1268217690" class="form-control" type="text"
-                                                    placeholder="Enter Name"  required="required" data-parsley-minlength="3" data-parsley-maxlength="30"  
-                                                    data-parsley-required-message="Please enter Name" data-parsley-minlength-message="Please enter valid name">
+                                                <input name="entry.1268217690" id="entry.1268217690"
+                                                    class="form-control" type="text" placeholder="Enter Name"
+                                                    required="required" >
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="mb-3">
                                                 <label>Phone</label>
-                                                <input name="entry.659563182" id="entry.659563182" class="form-control" type="number"
-                                                    placeholder="Enter Phone" required="required"  maxlength="12" data-parsley-minlength="10" data-parsley-maxlength="12"
-                                                    data-parsley-required-message="Please enter Mobile number" data-parsley-minlength-message="Please enter valid mobile number"  data-parsley-maxlength-message="Please enter valid mobile number ">
+                                                <input name="entry.659563182" id="entry.659563182" class="form-control"
+                                                    type="number" placeholder="Enter Phone" required="required"
+                                                    >
                                             </div>
                                         </div>
                                     </div>
@@ -518,49 +449,30 @@
                                         <div class="col-sm-12">
                                             <div class="mb-3">
                                                 <label>Email <small>*</small></label>
-                                                <input name="entry.1913177861" id="entry.1913177861" class="form-control"
-                                                    type="email" placeholder="Enter Email" required="required" 
-                                                    data-parsley-required-message="Please enter Email address" data-parsley-error-message="Please enter valid Email address" >
+                                                <input name="entry.1913177861" id="entry.1913177861"
+                                                    class="form-control" type="email" placeholder="Enter Email"
+                                                    required="required">
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="mb-3">
                                         <label>Message</label>
-                                        <textarea name="entry.1393563421" id="entry.1393563421" class="form-control required" rows="3"
-                                            placeholder="Enter Message" required="required" data-parsley-minlength="3"
-                                            data-parsley-required-message="Please enter Message"  data-parsley-minlength-message="Please enter valid message" ></textarea>
+                                        <textarea name="entry.1393563421" id="entry.1393563421" class="form-control"
+                                            rows="3" placeholder="Enter Message" required="required"></textarea>
                                     </div>
-
-                                    <div class="g-recaptcha"
-                                    data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"
-                                    data-callback="recaptchaCallback"></div>
-
-                                    <!-- g-captcha/parsely error notice -->
-                                    <input id="myField"
-                                        data-parsley-errors-container="#errorContainer"
-                                        data-parsley-required="true"
-                                        data-parsley-error-message="Please verify if you're not robot"
-                                        value="" type="text" style="display:none;">
-                                    <span id='errorContainer'></span>
-
                                     <div class="mb-3 mt-3">
-                             
-                                        <button type="submit"
-                                            class="btn btn-flat btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px"
-                                            data-loading-text="Please wait...">Send your message</button>
+                                        <input type="submit"
+                                            class="btn btn-flat btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">
                                     </div>
                                 </form>
-                                <iframe name="hidden_iframe" id="hidden_iframe"
-                                    style="display:none;"
-                                       onload="if(submitted) {}"></iframe>
+                                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                                    onload="if(submitted) {}"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- End Divider -->
-
             <div class="container">
                 <div class="footer-upper">
                     <section class="">
@@ -572,21 +484,22 @@
                                             <div class="">
                                                 <img class="logo-default logo-2x retina" src="assets/img/logo.png"
                                                     alt="Logo">
-
                                                 <div class="icon-main">
                                                     <ul
                                                         class="styled-icons icon-dark icon-theme-colored1 icon-circled clearfix">
-                                                        <li><a class="social-link fb_link" target="_blank" data-tm-bg-color="#3b5998"
-                                                                href="#"><i class="fab fa-facebook"></i></a></li>
-                                                        <li><a class="social-link yelp-bg yelp_link" target="_blank" href="#"><i
-                                                                    class="fab fa-yelp"></i></a></li>
-                                                        <li><a class="social-link instagram insta_link" target="_blank" href="#"><i
-                                                                    class="fab fa-instagram"></i></a>
+                                                        <li><a class="social-link fb_link" target="_blank"
+                                                                data-tm-bg-color="#3b5998" href="#"><i
+                                                                    class="fab fa-facebook"></i></a></li>
+                                                        <li><a class="social-link yelp-bg yelp_link" target="_blank"
+                                                                href="#"><i class="fab fa-yelp"></i></a></li>
+                                                        <li><a class="social-link instagram insta_link" target="_blank"
+                                                                href="#"><i class="fab fa-instagram"></i></a>
                                                         </li>
-                                                        <li><a class="social-link youtub-bg youtube_link" target="_blank" href="#"><i
+                                                        <li><a class="social-link youtub-bg youtube_link"
+                                                                target="_blank" href="#"><i
                                                                     class="fab fa-youtube"></i></a></li>
-                                                        <li><a class="social-link map-bg map_loc_link" target="_blank" href="#"><i
-                                                                    class="fa fa-map-marked"></i></a></li>
+                                                        <li><a class="social-link map-bg map_loc_link" target="_blank"
+                                                                href="#"><i class="fa fa-map-marked"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -614,13 +527,21 @@
         <a class="scrollToTop" href="#"><img src="assets/img/totop.png" alt=""></a>
     </div>
     <!-- end wrapper -->
-
     <!-- external javascripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/javascript-plugins-bundle.js"></script>
     <script src="assets/js/menuzord/js/menuzord.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script type="text/javascript">var submitted = false;</script>
+    <script type="text/javascript">
+        $('#gform').on('submit', function (e) {
+            $('#gform *').fadeOut(2000);
+            $('#gform').prepend('Thank you for getting in touch...');
+        });
+    </script>
 </body>
-
 </html>

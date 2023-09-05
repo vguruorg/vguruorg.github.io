@@ -1782,7 +1782,8 @@ footer#footer .widget .widget-title.widget-title-line-bottom.line-bottom-theme-c
  * -----------------------------------------------
 */
 header#header .header-top {
-    background-image: linear-gradient(to right, rgb(220 31 47) 0%, rgb(36 62 140)51%, rgb(15 139 68) 100%);
+    background: #308c23;
+    /* background-image: linear-gradient(to right, rgb(220 31 47) 0%, rgb(36 62 140)51%, rgb(15 139 68) 100%); */
     
 }
 header#header .header-top .row .col-xl-12

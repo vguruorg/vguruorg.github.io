@@ -20728,37 +20728,45 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul > li {
     cursor: pointer;
 }
   
-  .inner-img {
-    transition: 5s;
-  }
-  
-  .inner-img:hover {
-    transform: scale(1.1);
-  }
-  .details .title a
-  {
-    font-weight: 700;
-  }
-  .About_us_detail
-  {
-    color: #000;
-  }
-  .main-content-area
-  {
-    background: #c4dcbb;
-  }
-  .title-enrollment
-  {
-    color: #ffffff;
-  }
-    /* Chrome, Safari, Edge, Opera */
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin            : 0;
-    }
+.inner-img {
+transition: 5s;
+}
 
-    /* Firefox */
-    input[type=number] {
-    -moz-appearance: textfield;
-    }
+.inner-img:hover {
+transform: scale(1.1);
+}
+.details .title a
+{
+font-weight: 700;
+}
+.About_us_detail
+{
+color: #000;
+}
+.main-content-area
+{
+background: #c4dcbb;
+}
+.title-enrollment
+{
+color: #ffffff;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin            : 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+.contact-phone, .contact-email
+{
+    font-weight: bold;
+}
+.contact-address a
+{
+    font-weight: bold !important;
+}

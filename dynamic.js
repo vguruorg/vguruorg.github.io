@@ -1,7 +1,7 @@
     // Contact Detail start
-    var Contact_Number = "+1 408-123-4567";
+    var Contact_Number = "+1 408-641-5507";
     var Email_id = "info@vguru.org";
-    var Address = "1234 Your Home, City, CA 95555, USA";
+    var Address = "1614 ELLIS AVE, MILPITAS, CA 95035, USA";
     // Contact Detail end 
 
     // ABOUT US Detail start
@@ -65,5 +65,5 @@
     var yelp_link='https://yelp.com';
     var instagram_link='https://instagram.com';
     var youtube_link='https://youtube.com';
-    var map_location_link='https://map.google.com';
+    var map_location_link='https://goo.gl/maps/fPsNozFgNUtBErrVA';
 
