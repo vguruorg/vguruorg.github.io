@@ -1,5 +1,5 @@
     // Contact Detail start
-    var Contact_Number = "+1 408-641-5507";
+    var Contact_Number = "+1 408-256-1869";
     var Email_id = "info@vguru.org";
     var Address = "1614 Ellis Ave, Milpitas, CA 95035, USA";
     // Contact Detail end 
@@ -47,17 +47,17 @@
     // Full Day Detail Start
     var full_day_title = "Full Day, Monday - Friday";
     var full_day_time = "Hours: 8:15am - 6:00pm";
-    var full_day_price = "Tuition: $700 per month";
+    var full_day_price = "Tuition: Call for pricing";
     // Full Day Detail End
    
     // Half Day Detail Start
     var half_day_title = "Half Day, Monday - Friday";
     var half_day_time = "Morning: 9:00am - 12:00 pm";
-    var half_day_price = "Tuition: $450 per month";
+    var half_day_price = "Tuition: Call for pricing";
     // Half Day Detail End
 
     // terms and conditions Start
-    var terms_and_conditions = "Non-refundable registration fee: $100 <br> Tuition is paid monthly and is processed at the beginning of each month.";
+    var terms_and_conditions = "Non-refundable registration fee is applicable. <br> Tuition is paid monthly and is processed at the beginning of each month.";
     // terms and conditions End
     // Enrollment End
 
