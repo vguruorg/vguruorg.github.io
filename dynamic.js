@@ -1,6 +1,8 @@
     // Contact Detail start
     var Contact_Number = "+1 408-641-5507";
+    var Number_link ='tel:+14086415507';
     var Email_id = "info@vguru.org";
+    var Email_link ="mailto:info@vguru.org"
     var Address = "1614 Ellis Ave, Milpitas, CA 95035, USA";
     // Contact Detail end 
 
@@ -61,9 +63,9 @@
     // terms and conditions End
     // Enrollment End
 
-    var facebook_link='https://facebook.com';
+    var facebook_link='https://www.facebook.com/vGuru.org/';
     var yelp_link='https://yelp.com';
-    var instagram_link='https://instagram.com';
-    var youtube_link='https://youtube.com';
+    var instagram_link='https://www.instagram.com/vguru_org/';
+    var youtube_link='https://www.youtube.com/@vGuru_org';
     var map_location_link='https://goo.gl/maps/fPsNozFgNUtBErrVA';
 
