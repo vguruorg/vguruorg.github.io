@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
     $('.Number').html(Contact_Number);
+    $('.Number_link').attr("href",Number_link);
     $('.Email_id').html(Email_id);
+    $('.Email_link').attr("href",Email_link);
     $('.Address').html(Address);
 
     $('.About_us_detail').html(About_us_detail);
