@@ -46,20 +46,20 @@
 
     // Enrollment Start
    
-    // Full Day Detail Start
-    var full_day_title = "Pre-School, Monday - Friday";
+    // Pre-school Detail Start
+    var full_day_title = "Monday - Friday";
     var full_day_time = "Full Day : 8:15am - 6:00pm, Half Day :9:00am - 12:00pm";
     var full_day_price = "Tuition: Call for pricing";
-    // Full Day Detail End
+    // Pre-school Detail End
    
-    // Half Day Detail Start
-    var half_day_title = "After School, Monday - Friday";
+    // After School Detail Start
+    var half_day_title = "Monday - Friday";
     var half_day_time = "Hours: 1:00pm - 6:00pm";
     var half_day_price = "Tuition: Call for pricing";
-    // Half Day Detail End
+    // After School Detail End
 
     // terms and conditions Start
-    var terms_and_conditions = "Non-refundable registration fee is applicable. <br> Tuition is paid monthly and is processed at the beginning of each month.";
+    var terms_and_conditions = " <br> Non-refundable registration fee is applicable. <br> Tuition is paid monthly and is processed at the beginning of each month.";
     // terms and conditions End
     // Enrollment End
 
