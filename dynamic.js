@@ -45,14 +45,14 @@
     // Enrollment Start
    
     // Full Day Detail Start
-    var full_day_title = "Full Day, Monday - Friday";
-    var full_day_time = "Hours: 8:15am - 6:00pm";
+    var full_day_title = "Pre-School, Monday - Friday";
+    var full_day_time = "Full Day : 8:15am - 6:00pm, Half Day :9:00am - 12:00pm";
     var full_day_price = "Tuition: Call for pricing";
     // Full Day Detail End
    
     // Half Day Detail Start
-    var half_day_title = "Half Day, Monday - Friday";
-    var half_day_time = "Morning: 9:00am - 12:00 pm";
+    var half_day_title = "After School, Monday - Friday";
+    var half_day_time = "Hours: 1:00pm - 6:00pm";
     var half_day_price = "Tuition: Call for pricing";
     // Half Day Detail End
 
