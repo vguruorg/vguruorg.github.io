@@ -15,7 +15,7 @@
     // why vguru title end
 
     // Card frist Start
-    var Card_first_title = "Homework Assistance";
+    var Card_first_title = "Python";
     var Card_first_description = "Understanding that homework can be a challenging part of school, our  center  provides specialized homework assistance. With a gentle and encouraging approach, our skilled educators help your child grasp concepts, reinforcing what's taught in school. Through patient guidance, we turn homework struggles into confidence, making learning an enjoyable experience. <br> 📝🌟";
     // Card frist End 
 
