@@ -7,7 +7,7 @@
     // Contact Detail end 
 
     // ABOUT US Detail start
-    var About_us_detail = "Welcome to our nurturing learning center, where your child's growth is our joy! With a team of dedicated educators, we craft personalized learning experiences in a safe and engaging environment. Whether it's reading, math, or creative arts, we focus on your child's unique needs and interests, ensuring a fun-filled educational journey.";
+    var About_us_detail = "Welcome to our nurturing learning center, where your child's growth is our joy! With a team of dedicated educators, we craft personalized learning experiences in a safe and engaging environment. Whether it's game development, coding, or robotics, we focus on your child's unique needs and interests, ensuring a fun-filled educational journey.";
     // ABOUT US Detail end
 
     // Why vGuru Title start
@@ -15,46 +15,46 @@
     // why vguru title end
 
     // Card frist Start
-    var Card_first_title = "Python";
-    var Card_first_description = "Understanding that homework can be a challenging part of school, our  center  provides specialized homework assistance. With a gentle and encouraging approach, our skilled educators help your child grasp concepts, reinforcing what's taught in school. Through patient guidance, we turn homework struggles into confidence, making learning an enjoyable experience. <br> 📝🌟";
+    var Card_first_title = "Artficial Intelligence";
+    var Card_first_description = "Hey Brainiacs! AI, or Artificial Intelligence, is like a digital superhero! It's the tech magic that teaches computers to think, learn, and solve problems – just like you do! Imagine having a study buddy that's super smart and always ready for a brainy adventure. That's AI in action!<br> 📝🌟";
     // Card frist End 
 
     // Card Second Start
-    var Card_Second_title = "Reading and Writing";
-    var Card_Second_description = "Reading and writing at our learning center form the building blocks for a child's educational journey. Through personalized attention, kids are exposed to a vast array of books, nurturing a love for reading. Writing exercises are tailored to engage creativity, helping little hands craft sentences with precision and care. <br> 📖✍️";
+    var Card_Second_title = "Data Science";
+    var Card_Second_description = "Data Science is the superhero of numbers! It's the art of turning raw data into smart insights using math and technology. Imagine being a digital detective, solving mysteries and uncovering hidden patterns. Join the adventure of transforming information into knowledge with the magic of Data Science!<br>📊🕵️";
     // Card Second End
 
     // Card third Start
-    var Card_third_title = "Fitness-Yoga";
-    var Card_third_description = "At our center, fitness  finds a gentle and joyful expression through Yoga. Tailored for tiny tots, our Yoga sessions are designed to promote flexibility, balance, and mindfulness. Children participate in playful poses, guided by caring instructors, enhancing their physical well-being while nurturing a sense of calm and focus. <br> 🧘♂️💫";
+    var Card_third_title = "Game Development";
+    var Card_third_description = "Game development is a creative process where coding, design, and imagination converge to craft digital worlds. From building characters to coding gameplay, it's a fusion of technology and art. Dive into the exciting realm of game development, where every line of code brings your ideas to life.  <br> 🎮🚀";
     // Card third End
 
     // Card four Start
-    var Card_four_title = "Math and Science";
-    var Card_four_description = "At our center, Math and Science are more than just subjects they're exciting explorations! Children discover the joy of numbers through playful activities, developing strong mathematical foundations. Science comes alive with hands-on experiments, sparking curiosity about the world around them. It's a journey of discovery, tailored for young, inquisitive minds. <br> 🧪🔢"
+    var Card_four_title = "Python Coding";
+    var Card_four_description = "Python coding is your ticket to the tech world's backstage!  It's a versatile language, like the superhero of programming. With Python, you'll craft everything from games to apps. Think of it as your coding sidekick, making complex tasks feel like a breeze. Dive into Python, where your coding journey gets seriously exciting! <br>👩‍💻✨"
     // Card four End
 
     // Card five Start
-    var Card_five_title = "Art or Painting";
-    var Card_five_description = "Art and painting at our center are not mere activities but  pathways to self-expression and creativity. Using vibrant colors and  various techniques, children learn to paint their thoughts and dreams. Our educators guide them to explore texture and form, developing fine motor skills, artistic sensibilities, and fostering a love for visual arts. <br> 🎨🖌️";
+    var Card_five_title = "Robotics";
+    var Card_five_description = "Robotics is the ultimate fusion of tech and creativity!  It's like being a digital architect, designing and building smart machines. With robotics, you'll dive into coding, mechanics, and electronics, creating bots that move, groove, and solve real-world challenges. Get ready to engineer the future with a touch of fun! <br> 👩‍💻🔧";
     // Card Five End
 
     // card six Start
-    var Card_six_title = "Games - Chess";
-    var Card_six_description = "Chess at our learning center is more than just a game; it's a mind-building exercise for children. Through engaging lessons, kids learn strategy, patience, and critical thinking, all while having fun with the chess pieces. It's a playful yet analytical way to enhance cognitive skills, providing a unique learning experience <br> ♟️💡 ";
+    var Card_six_title = "Beginner Coding";
+    var Card_six_description = "Beginner coding is like embarking on a digital adventure! It's where you learn the language of computers in a fun and interactive way. Start with the basics, unravel the secrets of code, and soon you'll be crafting your own digital masterpieces. Join the coding journey – it's a blast! <br> ♟️💡 ";
     // card six End
 
     // Enrollment Start
    
     // Pre-school Detail Start
     var full_day_title = "Monday - Friday";
-    var full_day_time = "Full Day : 8:15am - 6:00pm, Half Day :9:00am - 12:00pm";
+    var full_day_time = "Hours: 5:00pm - 6:30pm, 6:30pm- 8:00pm";
     var full_day_price = "Tuition: Call for pricing";
     // Pre-school Detail End
    
     // After School Detail Start
     var half_day_title = "Monday - Friday";
-    var half_day_time = "Hours: 1:00pm - 6:00pm";
+    var half_day_time = "Full Day : 9:00am - 6:00pm, Half Day :9:00am - 12:00pm";
     var half_day_price = "Tuition: Call for pricing";
     // After School Detail End
 
