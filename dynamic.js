@@ -21,17 +21,30 @@
 
     // Card Second Start
     var Card_Second_title = "Data Science";
-    var Card_Second_description = "Data Science is the superhero of numbers! It's the art of turning raw data into smart insights using math and technology. Imagine being a digital detective, solving mysteries and uncovering hidden patterns. Join the adventure of transforming information into knowledge with the magic of Data Science!<br>📊🕵️";
+    var Card_Second_description = "Data Science is the superhero of numbers! \
+    It's the art of turning raw data into smart insights using math and \
+    technology. Imagine being a digital detective, solving mysteries and \
+    uncovering hidden patterns. Join the adventure of transforming \
+    information into knowledge with the magic of Data Science!<br>📊🕵️";
     // Card Second End
 
     // Card third Start
     var Card_third_title = "Game Development";
-    var Card_third_description = "Game development is a creative process where coding, design, and imagination converge to craft digital worlds. From building characters to coding gameplay, it's a fusion of technology and art. Dive into the exciting realm of game development, where every line of code brings your ideas to life.  <br> 🎮🚀";
+    var Card_third_description = "Game development is a creative process \
+    where coding, design, and imagination converge to craft digital worlds. \
+    From building characters to coding gameplay, it's a fusion of technology \
+    and art. Dive into the exciting realm of game development, where every \
+    line of code brings your ideas to life.  <br> 🎮🚀";
     // Card third End
 
     // Card four Start
     var Card_four_title = "Python Coding";
-    var Card_four_description = "Python coding is your ticket to the tech world's backstage!  It's a versatile language, like the superhero of programming. With Python, you'll craft everything from games to apps. Think of it as your coding sidekick, making complex tasks feel like a breeze. Dive into Python, where your coding journey gets seriously exciting! <br>👩‍💻✨"
+    var Card_four_description = "Python coding is your ticket to the tech \
+    world's backstage! It's a versatile language, like the superhero of \
+    programming. With Python, you'll craft everything from games to apps. \
+    Python makes complex tasks feel like a \
+    breeze. Dive into Python, where your coding journey gets seriously \
+    exciting! <br>👩‍💻✨"
     // Card four End
 
     // Card five Start
